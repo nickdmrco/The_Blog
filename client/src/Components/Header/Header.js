@@ -32,17 +32,7 @@ export default function Header(props) {
  return (
   <React.Fragment>
    <Toolbar className={classes.toolbar}>
-    <Button size="small">Subscribe</Button>
-    <Typography
-     component="h2"
-     variant="h5"
-     color="inherit"
-     align="center"
-     noWrap
-     className={classes.toolbarTitle}
-    >
-     {title}
-    </Typography>
+      <h1 align="center">Blog App</h1>
     <IconButton>
      <SearchIcon />
     </IconButton>
