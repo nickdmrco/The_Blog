@@ -4,9 +4,9 @@ const blogpostContext = createContext({
   blogpost: '',
   blogposts: [],
   handleInputChange: () => {},
-  handleAddItem: () => {},
-  handleUpdateItem: () => {},
-  handleDeleteItem: () => {},
+  handleAddBlogpost: () => {},
+  handleUpdateBlogpost: () => {},
+  handleDeleteBlogpost: () => {},
 })
 
 export default blogpostContext

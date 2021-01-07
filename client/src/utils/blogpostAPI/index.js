@@ -1,2 +1,1 @@
-import blogpostAPI from './blogpostAPI'
-export default blogpostAPI
+export { default } from './blogpostAPI.js'

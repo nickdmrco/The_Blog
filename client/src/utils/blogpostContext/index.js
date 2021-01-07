@@ -1,2 +1,1 @@
-import blogpostContext from './blogpostContext'
-export default blogpostContext
+export { default } from './blogpostContext.js'
