@@ -1,3 +1,3 @@
 module.exports = {
-  // your models here...
+  Blogpost: require('./Blogpost'),
 }
